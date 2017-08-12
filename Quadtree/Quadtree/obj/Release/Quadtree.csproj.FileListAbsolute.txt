@@ -1,0 +1,13 @@
+C:\Users\Viator\Documents\Visual Studio 2017\Projects\Quadtree\Quadtree\bin\Release\Quadtree.exe.config
+C:\Users\Viator\Documents\Visual Studio 2017\Projects\Quadtree\Quadtree\bin\Release\Quadtree.exe
+C:\Users\Viator\Documents\Visual Studio 2017\Projects\Quadtree\Quadtree\bin\Release\Quadtree.pdb
+C:\Users\Viator\Documents\Visual Studio 2017\Projects\Quadtree\Quadtree\obj\Release\MainWindow.g.cs
+C:\Users\Viator\Documents\Visual Studio 2017\Projects\Quadtree\Quadtree\obj\Release\App.g.cs
+C:\Users\Viator\Documents\Visual Studio 2017\Projects\Quadtree\Quadtree\obj\Release\Quadtree_MarkupCompile.cache
+C:\Users\Viator\Documents\Visual Studio 2017\Projects\Quadtree\Quadtree\obj\Release\Quadtree_MarkupCompile.lref
+C:\Users\Viator\Documents\Visual Studio 2017\Projects\Quadtree\Quadtree\obj\Release\MainWindow.baml
+C:\Users\Viator\Documents\Visual Studio 2017\Projects\Quadtree\Quadtree\obj\Release\Quadtree.g.resources
+C:\Users\Viator\Documents\Visual Studio 2017\Projects\Quadtree\Quadtree\obj\Release\Quadtree.Properties.Resources.resources
+C:\Users\Viator\Documents\Visual Studio 2017\Projects\Quadtree\Quadtree\obj\Release\Quadtree.csproj.GenerateResource.Cache
+C:\Users\Viator\Documents\Visual Studio 2017\Projects\Quadtree\Quadtree\obj\Release\Quadtree.exe
+C:\Users\Viator\Documents\Visual Studio 2017\Projects\Quadtree\Quadtree\obj\Release\Quadtree.pdb
