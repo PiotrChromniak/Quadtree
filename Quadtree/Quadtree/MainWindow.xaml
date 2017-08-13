@@ -5,9 +5,10 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:QuadtreeVisualization"
         mc:Ignorable="d"
-        Title="MainWindow" Height="530" Width="530">
-    <Grid>
+        Title="MainWindow" Height="582.585" Width="530">
+    <StackPanel>
         <Canvas Name="canvas" Background="White" HorizontalAlignment="Center" Height="500" VerticalAlignment="Center" Width="500" MouseLeftButtonUp="Canvas_MouseLeftButtonUp"/>
+        <Button x:Name="button" Content="Clear" Height="50" Click="button_Click"/>
 
-    </Grid>
+    </StackPanel>
 </Window>

@@ -12,3 +12,17 @@ C:\Users\Viator\Documents\Visual Studio 2017\Projects\Quadtree\Quadtree\obj\Debu
 C:\Users\Viator\Documents\Visual Studio 2017\Projects\Quadtree\Quadtree\obj\Debug\Quadtree.exe
 C:\Users\Viator\Documents\Visual Studio 2017\Projects\Quadtree\Quadtree\obj\Debug\Quadtree.pdb
 C:\Users\Viator\Documents\Visual Studio 2017\Projects\Quadtree\Quadtree\obj\Debug\Quadtree.csprojResolveAssemblyReference.cache
+C:\Users\Viator\Documents\GitHub\Quadtree\Quadtree\Quadtree\bin\Debug\Quadtree.exe.config
+C:\Users\Viator\Documents\GitHub\Quadtree\Quadtree\Quadtree\bin\Debug\Quadtree.exe
+C:\Users\Viator\Documents\GitHub\Quadtree\Quadtree\Quadtree\bin\Debug\Quadtree.pdb
+C:\Users\Viator\Documents\GitHub\Quadtree\Quadtree\Quadtree\obj\Debug\Quadtree.csprojResolveAssemblyReference.cache
+C:\Users\Viator\Documents\GitHub\Quadtree\Quadtree\Quadtree\obj\Debug\MainWindow.g.cs
+C:\Users\Viator\Documents\GitHub\Quadtree\Quadtree\Quadtree\obj\Debug\App.g.cs
+C:\Users\Viator\Documents\GitHub\Quadtree\Quadtree\Quadtree\obj\Debug\Quadtree_MarkupCompile.cache
+C:\Users\Viator\Documents\GitHub\Quadtree\Quadtree\Quadtree\obj\Debug\Quadtree_MarkupCompile.lref
+C:\Users\Viator\Documents\GitHub\Quadtree\Quadtree\Quadtree\obj\Debug\MainWindow.baml
+C:\Users\Viator\Documents\GitHub\Quadtree\Quadtree\Quadtree\obj\Debug\Quadtree.g.resources
+C:\Users\Viator\Documents\GitHub\Quadtree\Quadtree\Quadtree\obj\Debug\Quadtree.Properties.Resources.resources
+C:\Users\Viator\Documents\GitHub\Quadtree\Quadtree\Quadtree\obj\Debug\Quadtree.csproj.GenerateResource.Cache
+C:\Users\Viator\Documents\GitHub\Quadtree\Quadtree\Quadtree\obj\Debug\Quadtree.exe
+C:\Users\Viator\Documents\GitHub\Quadtree\Quadtree\Quadtree\obj\Debug\Quadtree.pdb

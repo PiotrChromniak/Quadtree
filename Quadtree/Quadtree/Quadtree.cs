@@ -90,7 +90,7 @@ namespace QuadtreeVisualization
             {
                 current.Type = Type.NODE;
                 current.Children = GenerateChildrenQuadrants(current);
-                var quad1 = MapPointToQuadrant(current, current.Point);
+                var quad1 = MapPointToQuadrant(current, Point);
                 var quad2 = MapPointToQuadrant(current, newTree.Point);
 
 
@@ -106,8 +106,20 @@ namespace QuadtreeVisualization
                 }
             } while (true);
 
+            #if DEBUG
+            if (Point.X < current.Region.X || Point.X > current.Region.X + current.Region.Width ||
+                Point.Y < current.Region.Y || Point.Y > current.Region.Y + current.Region.Width)
+                throw new ArgumentException("this throws");
+            #endif
+
             current.Type = Type.PARTICLE;
             current.Point = Point;
+
+            #if DEBUG
+            if (newTree.Point.X < support.Region.X || newTree.Point.X > support.Region.X + support.Region.Width ||
+                newTree.Point.Y < support.Region.Y || newTree.Point.Y > support.Region.Y + support.Region.Width)
+                throw new ArgumentException("newTree throws");
+            #endif
 
             support.Type = Type.PARTICLE;
             support.Point = newTree.Point;

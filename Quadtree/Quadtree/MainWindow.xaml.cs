@@ -32,6 +32,7 @@ namespace QuadtreeVisualization
         {
             var pos = Mouse.GetPosition(canvas);
             Root.Insert(pos);
+            canvas.Children.Clear();
             DrawQuadtree();
         }
 
@@ -71,13 +72,14 @@ namespace QuadtreeVisualization
         {
             var rect = new Rectangle()
             {
-                Width = reg.Width,
-                Height = reg.Width,
+                Width = reg.Width + 1,
+                Height = reg.Width + 1,
                 Stroke = Brushes.Black,
-                SnapsToDevicePixels = true
+                SnapsToDevicePixels = true,
+                StrokeThickness = 1
             };
 
-            rect.SetValue(RenderOptions.EdgeModeProperty, EdgeMode.Aliased);
+            //rect.SetValue(RenderOptions.EdgeModeProperty, EdgeMode.Aliased);
             rect.SetValue(Canvas.LeftProperty, reg.X);
             rect.SetValue(Canvas.TopProperty, reg.Y);
             canvas.Children.Add(rect);
@@ -95,6 +97,12 @@ namespace QuadtreeVisualization
             ellipse.SetValue(Canvas.LeftProperty, point.X - 2.5);
             ellipse.SetValue(Canvas.TopProperty, point.Y - 2.5);
             canvas.Children.Add(ellipse);
+        }
+
+        private void button_Click(object sender, RoutedEventArgs e)
+        {
+            Root = Quadtree.Root(new Region { X = 0, Y = 0, Width = canvas.Width });
+            canvas.Children.Clear();
         }
     }
 }
