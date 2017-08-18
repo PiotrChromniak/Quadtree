@@ -99,7 +99,7 @@ namespace QuadtreeVisualization {
             this.button = ((System.Windows.Controls.Button)(target));
             
             #line 11 "..\..\MainWindow.xaml"
-            this.button.Click += new System.Windows.RoutedEventHandler(this.button_Click);
+            this.button.Click += new System.Windows.RoutedEventHandler(this.Button_Click);
             
             #line default
             #line hidden

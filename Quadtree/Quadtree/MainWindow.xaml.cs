@@ -75,13 +75,12 @@ namespace QuadtreeVisualization
                 Width = reg.Width + 1,
                 Height = reg.Width + 1,
                 Stroke = Brushes.Black,
-                SnapsToDevicePixels = true,
-                StrokeThickness = 1
+                SnapsToDevicePixels = true
             };
-
-            //rect.SetValue(RenderOptions.EdgeModeProperty, EdgeMode.Aliased);
+            
             rect.SetValue(Canvas.LeftProperty, reg.X);
             rect.SetValue(Canvas.TopProperty, reg.Y);
+            rect.SetValue(Panel.ZIndexProperty, 1);
             canvas.Children.Add(rect);
         }
 
@@ -96,10 +95,11 @@ namespace QuadtreeVisualization
 
             ellipse.SetValue(Canvas.LeftProperty, point.X - 2.5);
             ellipse.SetValue(Canvas.TopProperty, point.Y - 2.5);
+            ellipse.SetValue(Panel.ZIndexProperty, 0);
             canvas.Children.Add(ellipse);
         }
 
-        private void button_Click(object sender, RoutedEventArgs e)
+        private void Button_Click(object sender, RoutedEventArgs e)
         {
             Root = Quadtree.Root(new Region { X = 0, Y = 0, Width = canvas.Width });
             canvas.Children.Clear();

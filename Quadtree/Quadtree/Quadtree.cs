@@ -94,16 +94,16 @@ namespace QuadtreeVisualization
                 var quad2 = MapPointToQuadrant(current, newTree.Point);
 
 
-                if (!quad1.Equals(quad2))
-                {
-                    support = current.Children[quad2.y,quad2.x];
-                    current = current.Children[quad1.y,quad1.x];
-                    break;
-                }
+                if (quad1.Equals(quad2))
+                    current = current.Children[quad1.y, quad1.x];
                 else
                 {
-                    current = current.Children[quad1.y,quad1.x];
+                    support = current.Children[quad2.y, quad2.x];
+                    current = current.Children[quad1.y, quad1.x];
+                    break;
                 }
+                    
+
             } while (true);
 
             #if DEBUG
@@ -129,13 +129,13 @@ namespace QuadtreeVisualization
         {
             var current = this;
 
-            do
+            while (true)
             {
                 var quad = MapPointToQuadrant(current, newPoint);
-                current = current.Children[quad.y,quad.x];
+                current = current.Children[quad.y, quad.x];
                 if (current.Type != Type.NODE)
                     break;
-            } while (true);
+            }
 
             return current;
         }
